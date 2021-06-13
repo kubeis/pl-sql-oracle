@@ -14,7 +14,7 @@
 ### install this repo and docker    
 ```shell script
 cd 
-cd jenkins-pic 
+cd pl-sql-oracle 
 python3 -m venv venv  # set up the module venv in the directory venv
 source venv/bin/activate  # activate the virtualenv python
 pip3 install wheel  # set for permissions purpose
@@ -24,7 +24,7 @@ ansible --version # check the version number # should be the latest 2.11.1
 ansible-playbook -i inventory_for_ubuntu install_docker_ubuntu.yml --limit local  # run the playbook for installing docker
 # close your IDE and start again 
 cd
-cd jenkins-pic
+cd pl-sql-oracle
 source venv/bin/activate
 docker ps 
 ```
