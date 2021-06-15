@@ -60,4 +60,5 @@ GRANT create any procedure TO chinook;
 GRANT create sequence TO chinook;
 GRANT create synonym TO chinook; 
 
-
+## Chinook data
+https://github.com/lerocha/chinook-database.git
