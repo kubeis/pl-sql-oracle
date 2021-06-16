@@ -5,6 +5,9 @@
       <sshConfig authType="PASSWORD" host="192.168.1.23" id="53e73b64-bfb7-40e0-99aa-747998d74475" port="22" customName="vm_server" nameFormat="CUSTOM" username="ubuntu">
         <option name="customName" value="vm_server" />
       </sshConfig>
+      <sshConfig authType="PASSWORD" host="137.74.61.84" id="dc5189c3-f90d-45f2-83a2-ed66fcfda6c4" port="22" customName="vm_roubaix" nameFormat="CUSTOM" username="ubuntu">
+        <option name="customName" value="vm_roubaix" />
+      </sshConfig>
     </configs>
   </component>
 </project>
