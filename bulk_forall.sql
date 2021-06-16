@@ -171,7 +171,7 @@ DECLARE
       sf_timer.show_elapsed_time ('BULK COLLECT - FORALL');
    END;
 BEGIN
-   compare_inserting (100000);
+   compare_inserting (2000000);
 END;
 /
 

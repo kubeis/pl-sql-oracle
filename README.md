@@ -58,7 +58,11 @@ GRANT create view TO chinook;
 GRANT create any trigger TO chinook;
 GRANT create any procedure TO chinook;
 GRANT create sequence TO chinook;
-GRANT create synonym TO chinook; 
+GRANT create synonym TO chinook;
+GRANT DEBUG CONNECT SESSION to chinook;
 
 ## Chinook data
 https://github.com/lerocha/chinook-database.git
+
+
+sqlplus sys/oracle@//localhost:1521/XEPDB1 as sysdba
