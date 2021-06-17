@@ -1,3 +1,4 @@
+DROP TABLE t_fun_plsql;
 CREATE TABLE  t_fun_plsql
 ( id number,
   str varchar2(30)

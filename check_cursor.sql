@@ -3,4 +3,8 @@ WHERE user_name = 'HR'
 AND cursor_type != 'DICTIONARY LOOKUP CURSOR CACHED'
 ORDER BY cursor_type;
 /
-       
+-- %ROWCOUNT , %ISOPEN , %FOUND, %NOTFOUND
+
+grant DEBUG CONNECT SESSION to HR;
+
+

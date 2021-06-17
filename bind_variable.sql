@@ -5,7 +5,7 @@ variable var_text varchar2(30);
 /
 variable var_number NUMBER;
 /
---variable var_date DATE;
+-- variable var_date DATE;
 /
 declare
 v_text varchar2(30);
