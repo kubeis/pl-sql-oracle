@@ -63,6 +63,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/truncate.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>

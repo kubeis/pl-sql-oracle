@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/bind_variable.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/hr.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/implicit_cursor.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/intro_plsql.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/pragma_udf_load.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/pragma_udf_test1.sql" dialect="Oracle" />
