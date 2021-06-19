@@ -9,6 +9,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="9a05c707-c6fc-4fe7-9c1f-9f4888558a4f" name="tpcds">
+        <fileTransfer accessType="SFTP" host="192.168.1.27" port="22" sshConfigId="8492c004-d928-4fb3-8ccc-16cdbfe76e1e" sshConfig="tpcds">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

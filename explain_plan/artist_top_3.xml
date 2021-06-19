@@ -1,0 +1,42 @@
+﻿<ExplainPlan>
+  <PlanElement id="0" operation="SELECT STATEMENT" optimizer="ALL_ROWS" cost="24" cardinality="3" bytes="225" cpu_cost="68,622,388" io_cost="22" time="1">
+    <PlanElements>
+      <PlanElement id="1" operation="COUNT" option="STOPKEY" qblock_name="SEL$1" filter_predicates="ROWNUM&lt;4">
+        <PlanElements>
+          <PlanElement id="2" operation="VIEW" object_owner="CHINOOK" object_instance="1" cost="24" cardinality="275" bytes="20,625" cpu_cost="68,622,388" io_cost="22" qblock_name="SEL$755462A5" time="1">
+            <PlanElements>
+              <PlanElement id="3" operation="SORT" option="ORDER BY STOPKEY" cost="24" cardinality="275" bytes="12,375" cpu_cost="68,622,388" io_cost="22" qblock_name="SEL$755462A5" filter_predicates="ROWNUM&lt;4" time="1">
+                <PlanElements>
+                  <PlanElement id="4" operation="HASH" option="GROUP BY" cost="24" cardinality="275" bytes="12,375" cpu_cost="68,622,388" io_cost="22" time="1">
+                    <PlanElements>
+                      <PlanElement id="5" operation="HASH JOIN" cost="22" cardinality="2,202" bytes="99,090" cpu_cost="4,537,354" io_cost="22" access_predicates="&quot;ITEM_1&quot;=&quot;T&quot;.&quot;ALBUMID&quot;" time="1">
+                        <PlanElements>
+                          <PlanElement object_ID="0" id="6" operation="VIEW" object_owner="SYS" object_name="VW_GBF_17" object_type="VIEW" object_instance="84" cost="6" cardinality="347" bytes="10,410" cpu_cost="870,644" io_cost="6" qblock_name="SEL$23F336C3" time="1">
+                            <PlanElements>
+                              <PlanElement id="7" operation="HASH JOIN" cost="6" cardinality="347" bytes="11,798" cpu_cost="870,644" io_cost="6" qblock_name="SEL$23F336C3" access_predicates="&quot;AR&quot;.&quot;ARTISTID&quot;=&quot;AL&quot;.&quot;ARTISTID&quot;" time="1">
+                                <PlanElements>
+                                  <PlanElement object_ID="1" id="8" operation="TABLE ACCESS" option="FULL" optimizer="ANALYZED" object_owner="CHINOOK" object_name="ALBUM" object_type="TABLE" object_instance="4" cost="3" cardinality="347" bytes="2,776" cpu_cost="101,537" io_cost="3" qblock_name="SEL$23F336C3" time="1"/>
+                                  <PlanElement object_ID="2" id="9" operation="TABLE ACCESS" option="FULL" optimizer="ANALYZED" object_owner="CHINOOK" object_name="ARTIST" object_type="TABLE" object_instance="5" cost="3" cardinality="275" bytes="7,150" cpu_cost="82,357" io_cost="3" qblock_name="SEL$23F336C3" time="1"/>
+                                </PlanElements>
+                              </PlanElement>
+                            </PlanElements>
+                          </PlanElement>
+                          <PlanElement id="10" operation="HASH JOIN" cost="16" cardinality="2,202" bytes="33,030" cpu_cost="2,794,459" io_cost="16" access_predicates="&quot;I&quot;.&quot;TRACKID&quot;=&quot;T&quot;.&quot;TRACKID&quot;" time="1">
+                            <PlanElements>
+                              <PlanElement object_ID="3" id="11" operation="TABLE ACCESS" option="FULL" optimizer="ANALYZED" object_owner="CHINOOK" object_name="INVOICELINE" object_type="TABLE" object_instance="3" cost="5" cardinality="2,202" bytes="15,414" cpu_cost="599,039" io_cost="5" qblock_name="SEL$755462A5" time="1"/>
+                              <PlanElement object_ID="4" id="12" operation="TABLE ACCESS" option="FULL" optimizer="ANALYZED" object_owner="CHINOOK" object_name="TRACK" object_type="TABLE" object_instance="2" cost="11" cardinality="3,503" bytes="28,024" cpu_cost="914,820" io_cost="11" qblock_name="SEL$755462A5" time="1"/>
+                            </PlanElements>
+                          </PlanElement>
+                        </PlanElements>
+                      </PlanElement>
+                    </PlanElements>
+                  </PlanElement>
+                </PlanElements>
+              </PlanElement>
+            </PlanElements>
+          </PlanElement>
+        </PlanElements>
+      </PlanElement>
+    </PlanElements>
+  </PlanElement>
+</ExplainPlan>
