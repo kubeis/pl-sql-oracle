@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="vm-server" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="oracle-vm" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="tpcds">
+      <paths name="local-vm">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/ubuntu/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="vm-server">
+      <paths name="oracle-vm">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/ubuntu/pl-sql-oracle" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

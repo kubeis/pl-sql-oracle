@@ -66,3 +66,5 @@ https://github.com/lerocha/chinook-database.git
 
 
 sqlplus sys/oracle@//localhost:1521/XEPDB1 as sysdba
+
+./dsqgen -DIRECTORY ../query_templates -INPUT ../query_templates/templates.lst -VERBOSE Y -QUALIFY Y -SCALE 100 -DIALECT oracle -OUTPUT_DIR /tmp

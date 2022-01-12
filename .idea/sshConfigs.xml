@@ -2,14 +2,11 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="192.168.1.23" id="53e73b64-bfb7-40e0-99aa-747998d74475" port="22" customName="vm_server" nameFormat="CUSTOM" username="ubuntu">
-        <option name="customName" value="vm_server" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="51.68.28.163" id="53e73b64-bfb7-40e0-99aa-747998d74475" port="22" customName="oracle-vm" nameFormat="CUSTOM" username="centos">
+        <option name="customName" value="oracle-vm" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="137.74.61.84" id="dc5189c3-f90d-45f2-83a2-ed66fcfda6c4" port="22" customName="vm_roubaix" nameFormat="CUSTOM" username="ubuntu">
-        <option name="customName" value="vm_roubaix" />
-      </sshConfig>
-      <sshConfig authType="PASSWORD" host="192.168.1.27" id="8492c004-d928-4fb3-8ccc-16cdbfe76e1e" port="22" customName="tpcds" nameFormat="CUSTOM" username="ubuntu">
-        <option name="customName" value="tpcds" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="192.168.1.117" id="4d51bef4-b647-4e56-a7c8-bebc6c5f8497" port="22" customName="local-vm" nameFormat="CUSTOM" username="hme">
+        <option name="customName" value="local-vm" />
       </sshConfig>
     </configs>
   </component>

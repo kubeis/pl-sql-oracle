@@ -8,6 +8,36 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../ci-cd/jenkins-pic/ORACLE.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ci-cd/jenkins-pic/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ci-cd/jenkins-pic/docker-compose.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../lunanode/install-kubernetes-lunanode/inventory">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ORACLE-18c.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ORACLE-21c.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/README.md">
           <value>
             <set />
@@ -29,6 +59,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/explain_plan.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/liste-commandes.txt">
           <value>
             <set />
           </value>
